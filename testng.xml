@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="API Test Suite">
+  <test name="Test">
+    <classes>
+	  <class name="e4.GetRequests"/>	
+	  <class name="e4.PostRequests"/>
+      <class name="e4.PutRequest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
