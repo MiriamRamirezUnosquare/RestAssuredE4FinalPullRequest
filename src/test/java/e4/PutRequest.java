@@ -17,7 +17,7 @@ public class PutRequest {
   @Test
   public void Put() throws IOException, ParseException {
 	  
-	  Response test = apiCore.Put(".\\Json\\Put.json","/users/2"); 
+	  Response test = apiCore.PutRequest(".\\Json\\Put.json","/users/2"); 
 	  Assert.assertEquals(200, test.statusCode()); 
 	  
   }
